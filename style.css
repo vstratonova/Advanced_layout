@@ -61,7 +61,6 @@ h3 {
 .menu_items {
     display: flex;
     justify-content: space-between;
-    padding-top: 18px;
 
 }
 
@@ -73,6 +72,67 @@ h3 {
 
 .menu_link {
     margin-left: 33px;
+}
+
+.menu_items_left {
+    padding-top: 18px;
+}
+
+.menu_items_right {
+    list-style: none;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+
+}
+
+
+
+.drop_menu {
+    background: #FFFFFF;
+    box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
+    width: 232px;
+    height: 750px;
+    position: absolute;
+    display: none;
+}
+
+.menu_link_hover:hover .drop_menu {
+    display: block;
+}
+
+.menu_heading {
+    margin-top: 40px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    padding-left: 34px;
+}
+
+.menu_sections {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #F16D7F;
+    padding-top: 20px;
+    padding-left: 34px;
+}
+
+.drop_menu_link {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #6F6E6E;
+    display: block;
+    padding-top: 11px;
+    padding-left: 55px;
+}
+
+.drop_menu_link:hover {
+    color: #F16D7F;
 }
 
 .top_info {
@@ -385,4 +445,49 @@ h3 {
     flex-direction: row;
     justify-content: space-between;
     padding-top: 30px;
+}
+
+.instagram_link {
+    background: url("img/instagram.svg") no-repeat;
+    height: 32px;
+    width: 32px;
+    display: inline-block;
+}
+
+
+.instagram_link:hover {
+    background: url("img/instagram_hover.svg") no-repeat;
+}
+
+.facebook_link {
+    background: url("img/facebook.svg") no-repeat;
+    height: 32px;
+    width: 32px;
+    display: inline-block;
+}
+
+.facebook_link:hover {
+    background: url("img/facebook_hover.svg") no-repeat;
+}
+
+.pinterest_link {
+    background: url("img/pinterest.svg") no-repeat;
+    height: 32px;
+    width: 32px;
+    display: inline-block;
+}
+
+.pinterest_link:hover {
+    background: url("img/pinterest_hover.svg") no-repeat;
+}
+
+.twitter_link {
+    background: url("img/twitter.svg") no-repeat;
+    height: 32px;
+    width: 32px;
+    display: inline-block;
+}
+
+.twitter_link:hover {
+    background: url("img/twitter_hover.svg") no-repeat;
 }
